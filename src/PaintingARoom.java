@@ -22,6 +22,6 @@ public class PaintingARoom {
         int b = 10;
         int a = (int) (gallons * 10);
         int roundedGallons = ((a + b - 1) / b);
-        System.out.print("You need" + roundedGallons + "gallons of paint");
+        System.out.print("You will need " + roundedGallons + " gallons of paint.");
     }
 }
